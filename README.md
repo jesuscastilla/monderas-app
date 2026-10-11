@@ -18,7 +18,7 @@ pestañas separadas:
 `monderas`), las **cuatro pestañas** (calendario, correo, web y drive), **modo oscuro** con toggle,
 **firma de release** y **CI** que compila y publica el APK firmado en cada push.
 
-- **Último release:** `v3.1.0` (versionCode 26) → https://github.com/jesuscastilla/Monderas-App/releases
+- **Último release:** `v3.1.0` (versionCode 26) → https://github.com/jesuscastilla/monderas-app/releases
 
 ---
 
@@ -53,7 +53,7 @@ pestañas separadas:
 ## Compilar
 
 ```powershell
-cd g:\GITHUB\monderas
+cd g:\GITHUB\monderas-app
 $env:JAVA_HOME='C:\Program Files\Android\Android Studio\jbr'
 $env:ANDROID_HOME='C:\Users\jesus\AppData\Local\Android\Sdk'
 .\gradlew.bat :app:assembleDebug      # APK de desarrollo
@@ -67,6 +67,6 @@ Salidas: `app/build/outputs/apk/{debug,release}/`.
 
 ## Repositorio
 
-- **Local:** `G:\GITHUB\monderas\`
-- **GitHub:** https://github.com/jesuscastilla/Monderas-App
+- **Local:** `G:\GITHUB\monderas-app\`
+- **GitHub:** https://github.com/jesuscastilla/monderas-app
 - **Contexto global:** `G:\GITHUB\CONTEXT.md`
