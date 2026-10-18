@@ -70,3 +70,18 @@ Salidas: `app/build/outputs/apk/{debug,release}/`.
 - **Local:** `G:\GITHUB\monderas-app\`
 - **GitHub:** https://github.com/jesuscastilla/monderas-app
 - **Contexto global:** `G:\GITHUB\CONTEXT.md`
+
+## Herramientas
+
+- [Kotlin](https://kotlinlang.org/) — lenguaje de la app.
+- [Jetpack Compose](https://developer.android.com/jetpack/compose) y [Material 3](https://m3.material.io/) — interfaz.
+- [OkHttp](https://square.github.io/okhttp/) — cliente HTTP (CalDAV y File Station).
+- [biweekly](https://github.com/mangstadt/biweekly) — iCalendar (CalDAV).
+- [CalDAV (RFC 4791)](https://www.rfc-editor.org/rfc/rfc4791) — sincronización de calendario.
+- [Synology File Station API](https://www.synology.com/dsm) — explorador de archivos del NAS.
+- [Firebase Cloud Messaging](https://firebase.google.com/products/cloud-messaging) — notificaciones push.
+- [GitHub Actions](https://github.com/features/actions) — CI/CD.
+
+## Mantenimiento automático
+
+Este repositorio es revisado **cada noche** por agentes automáticos que buscan bugs en el código. Por ello, entre las **03:00** y las **05:00** es probable que no todo funcione correctamente.
