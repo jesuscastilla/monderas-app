@@ -81,7 +81,3 @@ Salidas: `app/build/outputs/apk/{debug,release}/`.
 - [Synology File Station API](https://www.synology.com/dsm) — explorador de archivos del NAS.
 - [Firebase Cloud Messaging](https://firebase.google.com/products/cloud-messaging) — notificaciones push.
 - [GitHub Actions](https://github.com/features/actions) — CI/CD.
-
-## Mantenimiento automático
-
-Este repositorio es revisado **cada noche** por agentes automáticos que buscan bugs en el código. Por ello, entre las **03:00** y las **05:00** es probable que no todo funcione correctamente.
